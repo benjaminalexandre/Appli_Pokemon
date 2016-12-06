@@ -1,0 +1,101 @@
+
+
+/* rendre les boutons et zone text plus belle*/
+input[type=submit], input[type=reset] {
+ width:auto;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #DCDCDC;
+ cursor:pointer;
+ }
+ input{
+ background-color:#f7f2f2;
+ }
+input {
+ padding:3px;
+ border:1px solid #c9b9b9;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+ 
+ fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+
+ /* créer les carte pokemon*/
+table, th, td {
+   border: 1px solid black;
+   font-size: 20px;
+   border-radius: 5px;
+   color: black;
+   background-color: rgba(255, 255, 204, 1);
+}
+
+table {
+	float: center;
+	width: 500px;
+	text-align: left;
+	padding: 10px;
+	margin: 5px;
+	
+}
+form {
+	font-size: 15px;
+}
+
+
+
+
+/* style_page*/
+body
+{
+	background-image: url("fond4.jpg");  
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	
+}
+#wrapper{
+background-color: rgba(255, 255, 255, 0.9); /* Fond gris à moitié transparent */
+color: black;
+width: 70%;
+margin: auto;
+
+}
+#bloc_page
+{
+	width: 70%;
+	margin: auto;
+}
+
+					
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	
+}
+
+nav li{
+	margin-right: 15px; <!-- creer un espace entre chaque nom de page-->
+}
+
+nav a{
+	font-size: 90%;
+	color: black;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #2DACD6;
+	border-bottom: 3px solid #2DACD6;
+}
+
+				
+header{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}

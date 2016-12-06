@@ -1,0 +1,79 @@
+body
+	{
+		background-image: url("fond4.jpg");  
+		font-family: 'Trebuchet MS', Arial, sans-serif;		
+	}
+	
+#wrapper{
+	background-color: rgba(255, 255, 255, 0.9); /* Fond gris à moitié transparent */
+	color: black;   
+	width: 70%;
+	margin: auto;
+	position: absolute;
+	bottom: 20px;
+	top: 20px;
+	left: 100px;
+	right: 100px;
+		}
+
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #DCDCDC;
+ cursor:pointer;
+ }
+ input{
+ background-color:#FFF3F3;
+ }
+input {
+ padding:3px;
+ border:1px solid #c9b9b9;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+ 
+ fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #548c89;
+ }
+ 
+#bloc_page
+{
+	width: 70%;
+	margin: auto;
+}
+
+					/* Navigation */
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	
+}
+
+nav li{
+	margin-right: 15px; <!-- creer un espace entre chaque nom de page-->
+}
+
+nav a{
+	font-size: 95%;
+	color: black;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #2DACD6;
+	border-bottom: 3px solid #2DACD6;
+}
+
+				/* Header */
+
+header{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
